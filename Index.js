@@ -14,7 +14,7 @@
 
     // Atualização dinâmica do ano no footer
     .querySelector('footer p:last-child').innerHTML = 
-        `Desenvolvido por DevTeam - ${new Date().getFullYear()} © Todos os direitos reservados`;
+        `Desenvolvido por Samuel Corrêa - ${new Date().getFullYear()} © Todos os direitos reservados`;
 
     // Alerta de boas-vindas
     window.onload = function() {
